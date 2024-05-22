@@ -1,0 +1,105 @@
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+.container {
+   width: 80%;
+   margin: 0 auto;
+}
+
+.banner{
+   height: 100vh;
+   background-image: url(dinheiro_maos_homem_1200x650.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .banner h1{
+   font-size: 4em;
+   color: #070202;
+   background-position: center;
+ }
+ 
+ 
+ .banner p{
+   padding: 3%;
+   font-size: 1.2em;
+   color: #ffffff;
+ 
+ }
+ 
+ .banner h1 span{
+   color: #191df0;
+ }
+ 
+header {
+   background-color: #111;
+   color: #fff;
+   padding: 20px 0;
+   position: fixed;
+   width: 100%;
+   z-index: 1000;
+   transition: background-color 0.3s ease;
+}
+
+header .container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.logo {
+   font-size: 24px;
+}
+
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+.color{
+   color: #191df0;
+}
+
+nav ul li {
+   display: inline;
+   margin-right: 20px;
+}
+
+nav ul li a {
+   color: #fff;
+   text-decoration: none;
+}
+
+.section {
+   padding: 100px 0;
+}
+
+.section h2 {
+   font-size: 36px;
+}
+
+.section p {
+   font-size: 18px;
+}
+
+footer {
+   background-color: #111;
+   color: #fff;
+   text-align: center;
+   padding: 20px 0;
+}
+
+
+/* Smooth Scroll */
+html {
+   scroll-behavior: smooth;
+}
